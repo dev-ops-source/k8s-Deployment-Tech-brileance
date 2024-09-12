@@ -9,3 +9,7 @@ spec:
     - ReadWriteOnce
   hostPath:
     path: /mnt
+  storageClassName: local-storage
+  persistentVolumeReclaimPolicy: Retain
+  volumeMode: Filesystem
+
